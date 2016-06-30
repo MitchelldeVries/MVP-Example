@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChuckNorris</string>
+    <string name="new_joke_button_text">New Joke</string>
+    <string name="joke_text_view_placeholder">Joke comes here!</string>
+</resources>
