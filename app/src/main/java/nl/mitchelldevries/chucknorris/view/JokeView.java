@@ -9,5 +9,5 @@ import nl.mitchelldevries.chucknorris.model.Joke;
  */
 public interface JokeView extends BaseView {
 
-    void setJoke(Joke joke);
+    void setJoke(String joke);
 }

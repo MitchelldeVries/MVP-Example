@@ -23,11 +23,6 @@ public class FetchJokeInteractor extends Interactor<Joke> {
     protected Observable<Joke> getObservable() {
         return api.getRandomJoke()
                 .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .map(this::getJoke);
-    }
-
-    private Joke getJoke(Joke joke) {
-        return joke;
+                .observeOn(AndroidSchedulers.mainThread());
     }
 }

@@ -51,7 +51,7 @@ public class JokePresenterImpl implements JokePresenter {
 
         @Override
         public void onNext(Joke joke) {
-            view.setJoke(joke);
+            view.setJoke(joke.getValue().getJoke());
         }
     }
 }

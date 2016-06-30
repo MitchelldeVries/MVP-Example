@@ -48,8 +48,8 @@ public class JokeActivity extends AppCompatActivity implements JokeView {
     }
 
     @Override
-    public void setJoke(Joke joke) {
-        jokeTextView.setText(joke.toString());
+    public void setJoke(String joke) {
+        jokeTextView.setText(joke);
     }
 
     @Override

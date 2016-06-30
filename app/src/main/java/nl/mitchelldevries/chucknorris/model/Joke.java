@@ -9,14 +9,10 @@ import com.google.gson.annotations.SerializedName;
  */
 public class Joke {
 
-    @SerializedName(value = "joke")
-    private String joke;
+    @SerializedName(value = "value")
+    private Value value;
 
-    public String getJoke() {
-        return joke;
-    }
-
-    public void setJoke(String joke) {
-        this.joke = joke;
+    public Value getValue() {
+        return value;
     }
 }
